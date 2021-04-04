@@ -9,6 +9,7 @@ body {
 }
 
 h1 {
+    font-size: 562.5%;
   font-family: "Dancing Script", cursive;
 }
 
@@ -38,6 +39,9 @@ h3 {
   font-family: "Dancing Script", cursive;
   padding-top: 20px;
 }
+.flag {
+  
+}
 .mountain {
   display: inline-block;
   margin: 0 auto;
@@ -49,7 +53,7 @@ h3 {
 }
 
 .selfie {
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
 /*##########################ID SELECTORS###########################*/

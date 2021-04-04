@@ -1,13 +1,55 @@
 /*##########################TAG SELECTORS##########################*/
 
+/*https://colorhunt.co/palette/264562*/
+
 body {
-    margin: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
 }
 
 /*##########################CLASS SELECTORS########################*/
 
-.intro {
-    margin-block-start: 0em;
+.cloudBottom {
+  position: absolute;
+  top: 230px;
+}
+
+.cloudTop {
+  position: absolute;
+  right: 700px;
+}
+
+.divFirst {
+  background-color: #5f939a;
+  font-size: 2em;
+  font-family: "Dancing Script", cursive;
+  padding-top: 20px;
+}
+.mountain {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.name {
+  margin: 0%;
+  padding: 20px;
+}
+
+.selfie {
+    border-radius: 100%;
 }
 
 /*##########################ID SELECTORS###########################*/

@@ -31,6 +31,9 @@ h3 {
 
 hr {
   border-top: 10px dotted #5f939a;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
   margin: 50px auto;
   width: 5%;
 }
@@ -45,6 +48,10 @@ hr {
 .cloudTop {
   position: relative;
   left: 400px;
+}
+
+.description {
+  color: #1b2021;
 }
 
 .divFirst {
@@ -94,7 +101,7 @@ hr {
 
 .skill-row {
   line-height: 1.5;
-  margin: 100px auto 200px auto;
+  margin: 150px auto 150px auto;
   text-align: left;
   font-size: 110%;
   width: 35%;

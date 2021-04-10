@@ -3,26 +3,36 @@
 /*https://colorhunt.co/palette/264562*/
 
 body {
+  color: #1b2021;
+  font-family: "Roboto Slab", serif;
   margin: 0;
   text-align: center;
-  font-family: "Roboto Slab", serif;
 }
 
 h1 {
   color: #1b2021;
-  font-size: 350%;
+  font-size: 140px;
   font-family: "Dancing Script", cursive;
   font-weight: bold;
 }
 
 h2 {
+  color: #d8ac9c;
   font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: normal;
 }
 
 h3 {
-  color: #1b2021;
+  color: #d8ac9c;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
+}
+
+hr {
+  border-top: 10px dotted #5f939a;
+  margin: 50px auto;
+  width: 5%;
 }
 
 /*##########################CLASS SELECTORS########################*/
@@ -39,12 +49,28 @@ h3 {
 
 .divFirst {
   background-color: #5f939a;
-  font-size: 2em;
   font-family: "Dancing Script", cursive;
   padding-top: 60px;
 }
-.flag {
+
+.divSecond {
+  padding-top: 60px;
 }
+
+
+
+.web {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.mfd {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
 .mountain {
   display: block;
   margin: 0 auto;
@@ -57,6 +83,21 @@ h3 {
 
 .selfie {
   border-radius: 100%;
+  width: 300px;
+}
+
+.server {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-row {
+  line-height: 1.5;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  font-size: 110%;
+  width: 35%;
 }
 
 /*##########################ID SELECTORS###########################*/

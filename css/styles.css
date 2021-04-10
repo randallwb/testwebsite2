@@ -40,6 +40,26 @@ hr {
 
 /*##########################CLASS SELECTORS########################*/
 
+.buttonContactMe {
+  background: #EAC8AF;
+  background-image: -webkit-linear-gradient(top, #EAC8AF, #D8AC9C);
+  background-image: -moz-linear-gradient(top, #EAC8AF, #D8AC9C);
+  background-image: -ms-linear-gradient(top, #EAC8AF, #D8AC9C);
+  background-image: -o-linear-gradient(top, #EAC8AF, #D8AC9C);
+  background-image: -webkit-gradient(to bottom, #EAC8AF, #D8AC9C);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 32px;
+}
+
 .cloudBottom {
   position: relative;
   right: 400px;
@@ -64,12 +84,13 @@ hr {
   padding-top: 60px;
 }
 
+.divContactMe {
+  margin: 0px auto 50px auto;
+}
 
-
-.web {
-  float: right;
-  margin-left: 30px;
-  width: 25%;
+.footer {
+  background-color: #5f939a;
+  padding: 50px;
 }
 
 .mfd {
@@ -105,6 +126,12 @@ hr {
   text-align: left;
   font-size: 110%;
   width: 35%;
+}
+
+.web {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
 }
 
 /*##########################ID SELECTORS###########################*/
